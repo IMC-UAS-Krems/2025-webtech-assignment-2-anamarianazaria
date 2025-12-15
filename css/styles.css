@@ -1,0 +1,128 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.navbar, footer {
+    background-color: #4F7A66;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: 900;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.cart-icon {
+    font-size: 1.5rem;
+}
+
+.cart-badge-bottom {
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+    background: grey;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    padding: 2px 5px;
+    line-height: 1;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.overlay.show {
+    display: flex;
+}
+
+.about-box {
+    background: white;
+    width: 800px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.item-card {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-photo {
+    width: 100%;
+    border-radius: 8px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.price {
+    font-weight: bold;
+    color: #222;
+}
+
+.cart-box {
+    background: white;
+    width: 700px;
+    max-width: 95%;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.checkout-box {
+    background: white;
+    width: 750px;
+    max-width: 95%;
+    padding: 30px;
+    border-radius: 12px;
+}
